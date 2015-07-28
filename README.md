@@ -6,9 +6,14 @@ Carousel - is an example of "carousel" testing to ensure that images which are c
 Python2 is requred.
 
 $ git clone https://github.com/mkpythonanywhereblog/Carousel.git
+
 $ cd Carousel
+
 $ virtualenv env
+
 $ env\Scripts\activate  
 (or $ source env/Scripts/activate)
+
 $ pip install -r requirements.txt 
+
 $ python carousel.py 
