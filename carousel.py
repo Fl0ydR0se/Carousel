@@ -4,9 +4,9 @@ from seleniumscreen import get_screenshot
 from md5_hash_image import get_md5_hash
 import unittest
 
-"""This is an example of carousel testing to ensure that
-images which are changing within considered time interval are unique.
-Based on md5 hash for images and selenium for screenshots.
+"""Carousel - is an example of "carousel" testing to ensure that images which are changing
+within certain time interval are unique.
+The test is based on usage md5 hash for images and selenium webdriver to get screenshots.
 
 """
 
