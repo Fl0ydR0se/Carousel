@@ -1,10 +1,13 @@
 from PIL import Image
 from hashlib import md5
-import io, time
+import io
 
 
-"""
+"""This function calculates and return md5 hash for file.
 
+Usage:
+myfile = open(path_to_file, 'rb')
+print get_md5_hash(myfile)
 
 """
 

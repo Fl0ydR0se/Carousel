@@ -2,10 +2,10 @@ from selenium import webdriver
 from PIL import Image
 import time
 
-"""This is a screenshoting function based on selenium webdriver library.
+"""This is a screenshoting function based on selenium webdriver.
 It returns saved screenshot in PNG format and takes selenium webdriver instanse,
 locator type (id, css) to find and then screenshot the element and filename
-to name screenshot file.
+to name the screenshot.
 
 
 Usage:
